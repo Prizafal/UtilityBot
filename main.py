@@ -19,10 +19,16 @@ INTENTS.message_content = True #feel free to turn these on and off if needed
 
 # ---------- cogs ----------
 COGS = [  #if you add a new cog, add it here
-    "cogs.exportrole",
+    "cogs.exportRole",
     "cogs.ping",
     "cogs.admin",
-    "cogs.permissionCheck"
+    "cogs.permissionCheck",
+    "cogs.profile",
+    "cogs.bulkAddRole",
+    "cogs.bulkRemove",
+    "cogs.bulkPermChange",
+    "cogs.keepRemove",
+    "cogs.smartAdd",
 ]
 
 class Bot(commands.Bot): #generally creates the bot
