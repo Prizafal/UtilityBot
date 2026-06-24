@@ -1,0 +1,79 @@
+## Data Collected by UtilityBot
+
+UtilityBot is a self-hosted Discord bot designed for server administration, moderation, and community management. The bot only processes information necessary to perform the commands and features enabled by the administrator operating the bot.
+
+Depending on how UtilityBot is configured and used, the bot may process the following information:
+
+### Discord Identifiers
+
+* Discord User IDs
+* Discord Server (Guild) IDs
+* Discord Role IDs
+* Discord Channel IDs
+* Discord Message IDs
+
+### Role and Membership Information
+
+UtilityBot includes features that allow server administrators and authorized moderators to:
+
+* View which users possess specific roles
+* Export lists of users associated with a role
+* Export Discord User IDs associated with role membership
+* Add roles to users individually or in bulk
+* Remove roles from users individually or in bulk
+* Generate CSV files containing Discord User IDs and role information
+
+### Message and Activity Information
+
+UtilityBot may access and process message-related information in order to provide moderation and administrative functionality, including:
+
+* Message content
+* Message timestamps
+* Message author User IDs
+* Channel and server information associated with messages
+
+UtilityBot may use this information to:
+
+* Determine whether a user has sent messages during a specified time period
+* Identify inactive members
+* Enforce moderation policies
+* Delete messages that meet administrator-defined criteria
+* Execute moderation and server management commands
+
+### Temporary Processing
+
+Information may be temporarily processed in memory while commands are executed. This may include role information, message information, user identifiers, and command parameters required to generate reports or perform moderation actions.
+
+## Self-Hosted Use Only
+
+UtilityBot is distributed exclusively as self-hosted software. The developer does not operate a public UtilityBot service.
+
+Individuals and organizations who deploy UtilityBot are solely responsible for the data processed by their instance of the software.
+
+The developer of UtilityBot does not automatically collect, receive, store, or have access to information processed by independently hosted instances, including:
+
+* Discord User IDs
+* Role membership exports
+* Generated CSV files
+* Moderation logs
+* Message activity reports
+* Message content processed by moderation features
+* Records of deleted messages
+* Server configuration data
+
+Any information processed by UtilityBot remains under the control of the administrator operating that specific bot instance unless the host separately configures logging, backups, analytics, or external integrations.
+
+## Administrator Responsibility
+
+Server administrators are responsible for informing users about the presence and use of UtilityBot within their servers.
+
+By deploying UtilityBot, administrators acknowledge that the software may be capable of:
+
+* Collecting Discord User IDs associated with server roles
+* Generating exports of role membership information
+* Determining whether users have been active during specified periods
+* Processing message content and metadata when required by moderation features
+* Deleting messages based on administrator actions or configured moderation rules
+* Retaining Discord User IDs and related metadata as necessary for bot functionality
+
+Administrators are responsible for ensuring their use of UtilityBot complies with applicable laws, Discord's Terms of Service, and any privacy obligations applicable to their communities.
