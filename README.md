@@ -14,8 +14,8 @@ aiohttp>=3.9
     DISCORD_BOT_TOKEN= [Insert your token here]
     TESTING_GUILD_ID= [Insert your testing server ID here]
     DEV_ID= [Insert your UUID here]
-6. Run main.py in your command line
-7. Profit?
-
+6. Edit "botInfo.py" to list your name as the operator.
+7. Run main.py in your command line
+8. Profit?
 
 I'm not making this into a whole thing, if you need help google it or use AI, idc, it's not my problem lol.
